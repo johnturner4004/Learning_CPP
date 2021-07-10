@@ -6,7 +6,7 @@ This repository is simply a collection of small tutorial programs. Since these a
 
 Just the basic "Hello World" program that is usually the start of one's journey into learning a new programming.
 
-#### Things Learned From Hello World:
+### Things Learned From Hello World:
 
 * File extension for source code is cpp
 * File containing main() should be called main.cpp
@@ -30,7 +30,7 @@ This program extends on the previous by printing multiple lines of text. The tri
 
 In this program, used variables to contain data and print manipulate the output with the variables
 
-#### Things Learned From Variables
+### Things Learned From Variables:
 
 * Variables must be initialized with a type
 * 2 of the data types are string and int
@@ -41,3 +41,16 @@ In this program, used variables to contain data and print manipulate the output 
 * To change a variable simply set the variable equal to the new value
   * Must be the same type of data
   * ex. name = "Blake";
+
+## 4 Data Types
+
+This contains one of each variable type as an example. Was not compiled as the compiled program would not do anything. It honestly could have just been a md file but I decided to use it to practice my basic structure for a C++ program
+
+### Types of Data:
+
+* char: a single character
+* string: a string of characters
+* int: a whole number
+* float: a decimal number
+* double: a longer decimal number
+* bool: true or false values
