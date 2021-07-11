@@ -54,3 +54,24 @@ This contains one of each variable type as an example. Was not compiled as the c
 * float: a decimal number
 * double: a longer decimal number
 * bool: true or false values
+
+## 5 Strings
+
+Explores some basic string functions.
+
+### Things Learned Strings:
+
+* \n is another way to start a newline
+* Placing [] with a number inside after a string variable returns the character at that index
+* .length() after a string variable returns its length
+* a value passed into a function between the () is an argument
+* .find() returns the index of a character
+  * it accepts two arguments
+  * the first is the character of string you are searching for
+  * the second is what index to start searching at
+* .substr() returns a string from inside the string
+  * also accepts two arguments
+  * the first is the beginning index
+  * the second is the ending index
+  * the second argument is optional
+  * if only one argument is given the function returns from the start index through the end of the string

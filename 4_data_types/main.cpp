@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+
   // single charagter
   char grade = 'A';
   // string of characters
@@ -16,4 +17,5 @@ int main()
   double pi = 3.14159265358979323846264338327950288419716939937510;
   // true of false value
   bool is_cool = true;
+  
 }
