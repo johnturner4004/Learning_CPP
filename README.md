@@ -102,3 +102,13 @@ This explores using numbers in C++ including printing, variables, math operators
   * sqrt(num) returns square root of num
   * round(num), ceil(num), and floor(num) are different ways to round a number
   * fmax(num1, num2) and fmin(num1, num2) return the max and min of a pair of numbers
+
+## 7 User Input
+
+This gets input data from the user and store it in a variable.
+
+### Things Learned from User Input:
+
+* cin retrieves user input for int, float, double, and char but not strings
+* getline(cin, variable) will accept a string and assign it to a variable
+* all input should be put into a variable so it can be used by the program
