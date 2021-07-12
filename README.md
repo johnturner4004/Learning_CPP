@@ -112,3 +112,17 @@ This gets input data from the user and store it in a variable.
 * cin retrieves user input for int, float, double, and char but not strings
 * getline(cin, variable) will accept a string and assign it to a variable
 * all input should be put into a variable so it can be used by the program
+
+## 8 Arrays
+
+This explores storing arrays in variables, updating values, and retrieving values from array variables
+
+### Things Learned from Arrays
+
+* To declare an array variable first enter the type of data it will hold (int, bool, etc)
+* Then enter the name you want for the variable followed by [].
+* To assign values to it place them in {} and separate with ,
+* To initialize an array with empty data slots put a number in the initial [].
+* To add or alter data at an index just put the variable name, the index of the data, and set it equal to the new data.
+* To get data from an array put the variable followed by the index number in []
+* Indexes are zero based
