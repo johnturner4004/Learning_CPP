@@ -59,7 +59,7 @@ This contains one of each variable type as an example. Was not compiled as the c
 
 Explores some basic string functions.
 
-### Things Learned Strings:
+### Things Learned from Strings:
 
 * \n is another way to start a newline
 * Placing [] with a number inside after a string variable returns the character at that index
@@ -75,3 +75,30 @@ Explores some basic string functions.
   * the second is the ending index
   * the second argument is optional
   * if only one argument is given the function returns from the start index through the end of the string
+
+## 6 Numbers
+
+This explores using numbers in C++ including printing, variables, math operators, and some commonly used math functions.
+
+### Things Learned from Numbers:
+
+* No special formatting is required to use a number
+* Variables must declare number type
+* Numbers not in variables will have type set by what type on number is used
+  * 3 = integer
+  * 3.0 = float
+* Be careful to use the correct type of number
+  * 10 and 3 are both integers so 10 / 3 = 3
+  * 10 and 3.0 is an integer and a float so 10 / 3.0 is 3.33... since one is a float
+* Five basic operators for using numbers are:
+  * Addition: +
+  * Subtraction: -
+  * Multiplication: *
+  * Division: /
+  * Modulo (returns remainder of division): %
+* ++ and -- either increment or decrement a number by one
+* cmath is a commonly used library of math functions in C++
+  * pow(num, exponent) returns num ^ exp
+  * sqrt(num) returns square root of num
+  * round(num), ceil(num), and floor(num) are different ways to round a number
+  * fmax(num1, num2) and fmin(num1, num2) return the max and min of a pair of numbers
