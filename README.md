@@ -6,7 +6,7 @@ This repository is simply a collection of small tutorial programs. Since these a
 
 Just the basic "Hello World" program that is usually the start of one's journey into learning a new programming.
 
-### Things Learned From Hello World:
+### Things Learned From Hello World
 
 * File extension for source code is cpp
 * File containing main() should be called main.cpp
@@ -30,7 +30,7 @@ This program extends on the previous by printing multiple lines of text. The tri
 
 In this program, used variables to contain data and print manipulate the output with the variables
 
-### Things Learned From Variables:
+### Things Learned From Variables
 
 * Variables must be initialized with a type
 * 2 of the data types are string and int
@@ -46,7 +46,7 @@ In this program, used variables to contain data and print manipulate the output 
 
 This contains one of each variable type as an example. Was not compiled as the compiled program would not do anything. It honestly could have just been a md file but I decided to use it to practice my basic structure for a C++ program
 
-### Types of Data:
+### Types of Data
 
 * char: a single character
 * string: a string of characters
@@ -59,7 +59,7 @@ This contains one of each variable type as an example. Was not compiled as the c
 
 Explores some basic string functions.
 
-### Things Learned from Strings:
+### Things Learned from Strings
 
 * \n is another way to start a newline
 * Placing [] with a number inside after a string variable returns the character at that index
@@ -80,7 +80,7 @@ Explores some basic string functions.
 
 This explores using numbers in C++ including printing, variables, math operators, and some commonly used math functions.
 
-### Things Learned from Numbers:
+### Things Learned from Numbers
 
 * No special formatting is required to use a number
 * Variables must declare number type
@@ -107,7 +107,7 @@ This explores using numbers in C++ including printing, variables, math operators
 
 This gets input data from the user and store it in a variable.
 
-### Things Learned from User Input:
+### Things Learned from User Input
 
 * cin retrieves user input for int, float, double, and char but not strings
 * getline(cin, variable) will accept a string and assign it to a variable
@@ -117,7 +117,7 @@ This gets input data from the user and store it in a variable.
 
 This explores storing arrays in variables, updating values, and retrieving values from array variables
 
-### Things Learned from Arrays:
+### Things Learned from Arrays
 
 * To declare an array variable first enter the type of data it will hold (int, bool, etc)
 * Then enter the name you want for the variable followed by [].
@@ -131,7 +131,7 @@ This explores storing arrays in variables, updating values, and retrieving value
 
 This demonstrates the basics of defining a function and parameters and also using a function stub to define a function below the main function.
 
-### Things Learned from Functions:
+### Things Learned from Functions
 
 * Functions must be declared before they can be called (above the function call)
 * To define a function, first state the type for the return value followed by the name
@@ -150,7 +150,7 @@ This demonstrates the basics of defining a function and parameters and also usin
 
 This demonstrates the purpose of return statements.
 
-### Things Learned from Returns:
+### Things Learned from Returns
 
 * Return statements are where a function ends
 * Anything located after the return statement of a function will not execute
