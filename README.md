@@ -145,3 +145,13 @@ This demonstrates the basics of defining a function and parameters and also usin
 * If you want to define a function after it has been called, make a stub by declaring it but not defining it
 * When you do define your function, define it the same way you would have normally just below where it is called
 * The order functions are executed in or even if they are executed is defined in the main() function. The main function will ALWAYS be run first
+
+## 10 Returns
+
+This demonstrates the purpose of return statements.
+
+### Things Learned from Returns:
+
+* Return statements are where a function ends
+* Anything located after the return statement of a function will not execute
+* Return statements return a value to where the function was called
