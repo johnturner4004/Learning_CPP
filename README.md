@@ -176,5 +176,3 @@ This demonstrated how to use if statements in a function
   * see ./11_If_Statements/main.cpp for examples
 * any number of else if statements can be chained together
 * if multiple statements are true only the first is executed
-* 
-
