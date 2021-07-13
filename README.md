@@ -117,7 +117,7 @@ This gets input data from the user and store it in a variable.
 
 This explores storing arrays in variables, updating values, and retrieving values from array variables
 
-### Things Learned from Arrays
+### Things Learned from Arrays:
 
 * To declare an array variable first enter the type of data it will hold (int, bool, etc)
 * Then enter the name you want for the variable followed by [].
@@ -126,3 +126,22 @@ This explores storing arrays in variables, updating values, and retrieving value
 * To add or alter data at an index just put the variable name, the index of the data, and set it equal to the new data.
 * To get data from an array put the variable followed by the index number in []
 * Indexes are zero based
+
+## 9 Functions
+
+This demonstrates the basics of defining a function and parameters and also using a function stub to define a function below the main function.
+
+### Things Learned from Functions:
+
+* Functions must be declared before they can be called (above the function call)
+* To define a function, first state the type for the return value followed by the name
+* The name should be something that makes sense for what the function is doing
+* Place () after the functions name
+  * If the function needs any input declare variables inside the ().
+  * In the function's definition the input is called a parameter.
+  * When the function is fun the actual values passed into the function are called arguments
+* To call a function simple put its name inside the main including any necessary arguments inside the ().
+* The set of instructions for what the function does go inside a pair of {} that are placed immediately after the function (see './9_Functions/main.cpp' for examples)
+* If you want to define a function after it has been called, make a stub by declaring it but not defining it
+* When you do define your function, define it the same way you would have normally just below where it is called
+* The order functions are executed in or even if they are executed is defined in the main() function. The main function will ALWAYS be run first
