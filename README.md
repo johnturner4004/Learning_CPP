@@ -155,3 +155,25 @@ This demonstrates the purpose of return statements.
 * Return statements are where a function ends
 * Anything located after the return statement of a function will not execute
 * Return statements return a value to where the function was called
+
+## 11 If Statements
+
+This demonstrated how to use if statements in a function
+
+### Things Learned from If Statements
+
+* an if statements gives a set of conditions followed by a block of code
+* to set up one start with the word if followed by the conditions in () followed by {} containing a block of code
+  * see ./11_If_Statements/main.cpp for examples
+* the code only executed if the condition(s) are true
+* To request a statement be false, placing ! in front of it checks if it is not true
+  * ex. !variable
+* an else statement can follow an if statement and will be executed if the if statement is false
+* an if does not need an else. The code will just do nothing and continue
+* an if can only have one else statement
+* to have multiple scenarios use an else if statement to have another set of conditions to check followed by a block of code
+* else if statements are structured similar to an if statement
+  * see ./11_If_Statements/main.cpp for examples
+* any number of else if statements can be chained together
+* if multiple statements are true only the first is executed
+
