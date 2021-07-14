@@ -21,9 +21,10 @@ int getMax(int num1, int num2, int num3) {
 int main() 
 {
 
+  // all instances of this function should print 3
   cout << getMax(1, 2, 3) << endl;
   cout << getMax(3, 2, 1) << endl;
-  cout << getMax(2, 2, 2) << endl;
+  cout << getMax(3, 3, 3) << endl;
   cout << getMax(2, 3, 2) << endl;
 
   return 0;
