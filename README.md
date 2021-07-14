@@ -176,3 +176,20 @@ This demonstrated how to use if statements in a function
   * see ./11_If_Statements/main.cpp for examples
 * any number of else if statements can be chained together
 * if multiple statements are true only the first is executed
+
+## Comparisons
+
+This shows how to use comparisons in an if statement.
+
+### Things Learned from Comparisons
+
+* Comparisons compare two numbers to each other
+* The following are all different comparison symbols
+  * < less than
+  * \> greater than
+  * == equal to
+    * a single = is used to assign values to a variable
+    * to say two numbers are equal use ==
+  * <= less than or equal two
+  * \>=  greater than or equal to
+  * != not equal to
