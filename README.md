@@ -1,10 +1,10 @@
 # Learning C++
 
-This repository is simply a collection of small tutorial programs. Since these are all so small I am just grouping them together. I will list some details and things learned in writing each program.
+This repository is simply a collection of small tutorial programs. Since these are all so small I am just grouping them together. I will list some details and things learned in writing each program. For specific examples of the topics below look in the main.cpp of the corresponding folder. For C++ programs it is normal to name the file after it's primary function. While a program can have multiple files and functions, it must always have a main() function.
 
 ## 1 Hello World
 
-Just the basic "Hello World" program that is usually the start of one's journey into learning a new programming.
+Just the basic "Hello World" program that is usually the start of one's journey into learning a new programming. Even this simple program still has a main() as every C++ program must have a main(). Code is executed in the order that it is written in in the main() function. The main function is where the program starts.
 
 ### Things Learned From Hello World
 
@@ -24,11 +24,11 @@ Just the basic "Hello World" program that is usually the start of one's journey 
 
 ## 2 Triangle
 
-This program extends on the previous by printing multiple lines of text. The triangle is just made with characters in a string
+This program extends on the previous by printing multiple lines of text. The triangle is just made with characters in a string on various lines.
 
 ## 3 Variables
 
-In this program, used variables to contain data and print manipulate the output with the variables
+In this program, variables are used to contain data and print manipulate the output with the variables. A variable contains a value that can be reused and changed.
 
 ### Things Learned From Variables
 
@@ -115,7 +115,7 @@ This gets input data from the user and store it in a variable.
 
 ## 8 Arrays
 
-This explores storing arrays in variables, updating values, and retrieving values from array variables
+This explores storing arrays in variables, updating values in arrays, and retrieving values from array variables. An array is a variable that contains a series of values.
 
 ### Things Learned from Arrays
 
@@ -129,7 +129,7 @@ This explores storing arrays in variables, updating values, and retrieving value
 
 ## 9 Functions
 
-This demonstrates the basics of defining a function and parameters and also using a function stub to define a function below the main function.
+This demonstrates the basics of defining a function and parameters and also using a function stub to define a function below the main function. A function is a re-usable block of code that sometimes takes in arguments and returns a value and other times it just performs some action. 
 
 ### Things Learned from Functions
 
@@ -148,7 +148,7 @@ This demonstrates the basics of defining a function and parameters and also usin
 
 ## 10 Returns
 
-This demonstrates the purpose of return statements.
+This demonstrates the purpose of return statements. A return statement is used to return a value from a function.
 
 ### Things Learned from Returns
 
@@ -179,7 +179,7 @@ This demonstrated how to use if statements in a function
 
 ## Comparisons
 
-This shows how to use comparisons in an if statement.
+This shows how to use comparisons in an if statement. A comparison compares two values to each other.
 
 ### Things Learned from Comparisons
 
@@ -193,3 +193,17 @@ This shows how to use comparisons in an if statement.
   * <= less than or equal two
   * \>=  greater than or equal to
   * != not equal to
+
+## 12 Switch Statements
+
+This shows how to use a switch statement in a function. Switch statements are similar to a chain of if-else statements but they are easier to read and look cleaner.
+
+### Things Learned from Switch Statements
+
+* Switch statements work similar to a chain of if-else statements
+* To start a switch statement begin with the word switch followed by the variable it is checking in ().
+* Following that their is a list of cases inside {}.
+* each case has a value followed by :
+* Each case contains a block of code with a break statement for each case to stop executing the code for that case and exit the switch statement.
+* When the variable == the case value the code inside the case is executed.
+* If none match, the default case is executed.
