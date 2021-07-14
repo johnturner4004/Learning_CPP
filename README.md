@@ -129,7 +129,7 @@ This explores storing arrays in variables, updating values in arrays, and retrie
 
 ## 9 Functions
 
-This demonstrates the basics of defining a function and parameters and also using a function stub to define a function below the main function. A function is a re-usable block of code that sometimes takes in arguments and returns a value and other times it just performs some action. 
+This demonstrates the basics of defining a function and parameters and also using a function stub to define a function below the main function. A function is a re-usable block of code that sometimes takes in arguments and returns a value and other times it just performs some action.
 
 ### Things Learned from Functions
 
