@@ -207,3 +207,19 @@ This shows how to use a switch statement in a function. Switch statements are si
 * Each case contains a block of code with a break statement for each case to stop executing the code for that case and exit the switch statement.
 * When the variable == the case value the code inside the case is executed.
 * If none match, the default case is executed.
+
+## 15 While Loops
+
+This demonstrates how to structure and loop a while loop. A while loop is a block of code that executes repeatedly while a condition is true. 
+
+### Things Learned from While Loops
+
+* A while loop is started with the keyword while followed by a condition in ().
+* If the condition is true the code inside the while loop is executed.
+* The code will continue to execute until the condition is false.
+* Be careful not to create an infinite loop.
+  * An infinite loop is caused by a condition that will never become false.
+  * Infinite loops can crash your program or even the computer.
+* If the initial condition is false, the while loop does not execute.
+* A do-while loop is similar to a while loop except the condition is evaluated after the block of code is executed.
+  * This causes the code to be executed at least once even if the initial condition is false.
