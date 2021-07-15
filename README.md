@@ -231,7 +231,12 @@ This demonstrates how to use for loops in C++. For loops are similar to while lo
 ### Things Learned from For Loops
 
 * For loops stat with the keyword "for" followed by () containing instructions on how the loop will run.
-  * The first instruction initializes a variable to use as an index. 
+  * The first instruction initializes a variable to use as an index.
   * The second is a condition. Like a while loop the for loop will run until the condition is false.
   * Finally the third is instruction on how the index variable changes after each loop (usually i++).
 * Lastly the () are followed by a block of code contained in {}
+
+## 16 Exponent Functions
+
+This was more of an example of using a for loop to make an exponent function.
+
