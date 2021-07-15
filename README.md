@@ -240,3 +240,21 @@ This demonstrates how to use for loops in C++. For loops are similar to while lo
 
 This was more of an example of using a for loop to make an exponent function.
 
+## 17 2d Arrays and Nested For Loops
+
+This demonstrates how to declare and reference a 2d array and how to use a nested for loop to iterate over the array.
+
+### Things Learned from 2d Arrays and Nested For Loops
+
+* A 2d array is like an array of arrays.
+* To set up a 2d array, declare a variable with the type of data in the array
+* After that place two sets of []. One for each dimension of the array.
+  * Unlike 1d arrays, a number of elements in the array must be entered.
+  * The first number is the number of rows or arrays in the array.
+  * The second is the number of elements or columns in those arrays.
+  * Remember this is a count of how many elements there are not their index.
+* To iterate over the array you generally use a nested for loop. 
+  * Basically a for loop in a for loop.
+  * The first loops theough the rows or arrays of the array.
+  * The second loops through the columns or elements of those arrays.
+  
