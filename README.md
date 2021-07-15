@@ -177,7 +177,7 @@ This demonstrated how to use if statements in a function
 * any number of else if statements can be chained together
 * if multiple statements are true only the first is executed
 
-## Comparisons
+## 12 Comparisons
 
 This shows how to use comparisons in an if statement. A comparison compares two values to each other.
 
@@ -194,7 +194,7 @@ This shows how to use comparisons in an if statement. A comparison compares two 
   * \>=  greater than or equal to
   * != not equal to
 
-## 12 Switch Statements
+## 13 Switch Statements
 
 This shows how to use a switch statement in a function. Switch statements are similar to a chain of if-else statements but they are easier to read and look cleaner.
 
@@ -208,9 +208,9 @@ This shows how to use a switch statement in a function. Switch statements are si
 * When the variable == the case value the code inside the case is executed.
 * If none match, the default case is executed.
 
-## 15 While Loops
+## 14 While Loops
 
-This demonstrates how to structure and loop a while loop. A while loop is a block of code that executes repeatedly while a condition is true. 
+This demonstrates how to structure and loop a while loop. A while loop is a block of code that executes repeatedly while a condition is true.
 
 ### Things Learned from While Loops
 
@@ -223,3 +223,15 @@ This demonstrates how to structure and loop a while loop. A while loop is a bloc
 * If the initial condition is false, the while loop does not execute.
 * A do-while loop is similar to a while loop except the condition is evaluated after the block of code is executed.
   * This causes the code to be executed at least once even if the initial condition is false.
+
+## 15 For Loops
+
+This demonstrates how to use for loops in C++. For loops are similar to while loops with a few differences.
+
+### Things Learned from For Loops
+
+* For loops stat with the keyword "for" followed by () containing instructions on how the loop will run.
+  * The first instruction initializes a variable to use as an index. 
+  * The second is a condition. Like a while loop the for loop will run until the condition is false.
+  * Finally the third is instruction on how the index variable changes after each loop (usually i++).
+* Lastly the () are followed by a block of code contained in {}
