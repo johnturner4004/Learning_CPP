@@ -272,3 +272,19 @@ A pointer references the memory location of a variable. This example shows how t
   * Then set it equal to the pointer you want to store in it (ex. int *pAge = &Age)
 * To get the memory address just call the pointer variable (ex. pAge)
 * To get the value of the memory at that address dereference the pointer by placing a \* before it (ex. *pAge)
+
+## 19 Classes and Objects
+
+Classes are custom data types that can be created to store information about things that can't be described with just a single data type. An object is an instance of a class. This example shows how to create and use classes and objects. 
+
+### Things Learned from Classes and Objects
+
+* Classes are custom data types
+* To create a class, use the keyword class followed by the name of the class
+* Inside {} after the class name, list the members of the class beginning with the type of data and the name of the member
+* Access specifiers are used to specify the access of a member (public, private, protected)
+* Access is private by default
+* For any members that are not private, specify the access level followed by all members of the class that are that access level
+* To create an object, use the class name followed by the name of that object
+* To assign values to the members of the object, use the object followed by a '.' then the name of the member and set it = to the value
+* Values of members are accessed and changed using the same method
