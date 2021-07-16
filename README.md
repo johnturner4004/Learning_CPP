@@ -301,3 +301,13 @@ A construftor function runs when a new object is created. This example shows how
 * A common use of constructors is to initialize the members of the object by passing them in as parameters
 * A class can have multiple constructors
 * A constructor can also be used to set default values for members of the object
+
+## 21 Object Functions
+
+An object function is a function that can be run on an object. This example shows how to create and use object functions.
+
+### Things Learned from Object Functions
+
+* To create an object function, make a function inside the class.
+* To use one simple call the object '.' the function name followed by () with parameters if needed.
+* Object functions by default use the values of the members of the object.
