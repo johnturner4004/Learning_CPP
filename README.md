@@ -14,7 +14,7 @@ Just the basic "Hello World" program that is usually the start of one's journey 
 * The code for a function is enclosed in {}
 * With few exceptions a line of code should end in a ;
 * Use #include followed by the header file enclosed in <> to use it
-* main() is where execution of the probram begins
+* main() is where execution of the program begins
   * Every program MUST have a main()
 * cout prints output string
 * Strings are enclosed in ""
@@ -253,8 +253,22 @@ This demonstrates how to declare and reference a 2d array and how to use a neste
   * The first number is the number of rows or arrays in the array.
   * The second is the number of elements or columns in those arrays.
   * Remember this is a count of how many elements there are not their index.
-* To iterate over the array you generally use a nested for loop. 
+* To iterate over the array you generally use a nested for loop.
   * Basically a for loop in a for loop.
-  * The first loops theough the rows or arrays of the array.
+  * The first loops through the rows or arrays of the array.
   * The second loops through the columns or elements of those arrays.
-  
+
+## 18 Pointers
+
+A pointer references the memory location of a variable. This example shows how to use pointers.
+
+### Things Learned from Pointers
+
+* Pointers reference the memory location of a variable.
+* To get a pointer, put a & before the variable name.
+* Pointers can be stored in a variable
+  * To declare a pointer variable start with the type of data of the variable if references
+  * Place a *p followed by the name of the variable in camel case.
+  * Then set it equal to the pointer you want to store in it (ex. int *pAge = &Age)
+* To get the memory address just call the pointer variable (ex. pAge)
+* To get the value of the memory at that address dereference the pointer by placing a \* before it (ex. *pAge)
