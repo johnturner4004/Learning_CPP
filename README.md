@@ -311,3 +311,13 @@ An object function is a function that can be run on an object. This example show
 * To create an object function, make a function inside the class.
 * To use one simple call the object '.' the function name followed by () with parameters if needed.
 * Object functions by default use the values of the members of the object.
+
+## 22 Getters and Setters
+
+Getters and Setters are object functions used to access private members of an object. This example shows how to create and use getters and setters.
+
+### Things Learned from Getters and Setters
+
+* To create a getter or setter, make a function inside the class.
+* That function can be used to either set the values of private members of the object or get their value
+* Commonly used to prevent adding invalid values to the members of the object
