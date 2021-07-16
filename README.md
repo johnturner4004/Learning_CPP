@@ -275,7 +275,7 @@ A pointer references the memory location of a variable. This example shows how t
 
 ## 19 Classes and Objects
 
-Classes are custom data types that can be created to store information about things that can't be described with just a single data type. An object is an instance of a class. This example shows how to create and use classes and objects. 
+Classes are custom data types that can be created to store information about things that can't be described with just a single data type. An object is an instance of a class. This example shows how to create and use classes and objects.
 
 ### Things Learned from Classes and Objects
 
@@ -288,3 +288,16 @@ Classes are custom data types that can be created to store information about thi
 * To create an object, use the class name followed by the name of that object
 * To assign values to the members of the object, use the object followed by a '.' then the name of the member and set it = to the value
 * Values of members are accessed and changed using the same method
+
+## 20 Constructor Functions
+
+A construftor function runs when a new object is created. This example shows how to create and use constructor functions.
+
+### Things Learned from Constructor Functions
+
+* To create a constructor function, make a function with the same name as the class inside the class.
+* The constructor function will run whenever a new object is created for that class
+* A constructor function can take parameters
+* A common use of constructors is to initialize the members of the object by passing them in as parameters
+* A class can have multiple constructors
+* A constructor can also be used to set default values for members of the object
