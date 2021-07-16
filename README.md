@@ -321,3 +321,15 @@ Getters and Setters are object functions used to access private members of an ob
 * To create a getter or setter, make a function inside the class.
 * That function can be used to either set the values of private members of the object or get their value
 * Commonly used to prevent adding invalid values to the members of the object
+
+## 23 Inheritance
+
+A sub class can be created that inherits from a parent or super class. This example shows how to create and use sub classes.
+
+### Things Learned from Inheritance
+
+* To create a sub class, begin as you would with a class by using the keyword class followed by the name of the class.
+* Then use a : followed by public then the class it is inheriting from
+* The sub class will have all the members of the parent class
+* The parent class will not have the members of the sub class
+* The sub class can override the members of the parent class
